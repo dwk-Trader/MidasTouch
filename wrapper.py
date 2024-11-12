@@ -14,7 +14,7 @@ class IBWrapper(EWrapper):
             bar.close,
             bar.volume,
         )
-        if request_id not in self.historical_data.keys():
+        if request_id not in self.historical_data:
             self.historical_data[request_id] = []
         
         self.historical_data[request_id].append(bar_data)
