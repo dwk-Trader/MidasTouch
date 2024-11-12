@@ -1,3 +1,5 @@
+#This file implements custom functions to create and return Order objects using the IB API:
+
 from ibapi.order import Order
 
 BUY = "BUY"
