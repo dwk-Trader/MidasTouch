@@ -1,3 +1,7 @@
+""" This user written wrapper class inherits EWrapper, which is provided 
+    by the Interactive Brokers Python API.
+"""
+
 from ibapi.wrapper import EWrapper
 
 class IBWrapper(EWrapper):

@@ -1,3 +1,6 @@
+""" This user class inherits the EClient class provided by the Interactive
+    Brokers API.
+"""
 import time
 import pandas as pd
 
